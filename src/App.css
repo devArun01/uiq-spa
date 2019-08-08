@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  min-width:100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 2;
+}
+
+.NavBar {
+  background-color: #282c34;
+  width: 12vw;
+  margin-top: 10vh;
+  min-width: 120px;
+  padding: 50px 0;
+  z-index: 1;
+}
+
+.NavBar button{
+  width: 100px;
+  border: 0;
+  font-size: 18px;
+  margin-top: 10px;
+  background-color: #282c34;
+}
+
+.NavBar button:focus{
+  outline: none;
+}
+
+.Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  background-color: turquoise;
+  height: 90vh;
+  flex-grow: 2;
+  min-width: 762px;
+  font-size: 30px;
+  font-weight: bold;
+}
