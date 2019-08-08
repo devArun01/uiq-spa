@@ -6174,7 +6174,7 @@ if (Array.isArray || (Array.isArray = function (e) {
         , l = null
         , d = null
         , f = null
-        , p = "http://dev.useriq.com:3000"
+        , p = "https://app.useriq.com"
         , h = "https://feed.useriq.com/images/micro-feedback";
       this.setActiveRecord = function (e) {
         l = !e && l ? l : e
@@ -6742,7 +6742,7 @@ if (Array.isArray || (Array.isArray = function (e) {
       function T(e, t) {
         var n = {}
           , r = En + "/campaigns/check";
-        "410033701" === Qt && (r = "http://dev.useriq.com:3000/check_campaigns/"),
+        "410033701" === Qt && (r = "https://app.useriq.com/check_campaigns/"),
           window.location && (n._ref = te(R(window.location)),
             "" !== window.location.hash && (n.hash = te(window.location.hash.substring(1)))),
           e && (n.campaign_type = e),
@@ -7836,7 +7836,7 @@ if (Array.isArray || (Array.isArray = function (e) {
       }
       var St = K.location.href;
       x() && (St = document.location.href);
-      var Tt, Ot, Ct, At, kt, Pt, Nt, xt, Rt, It, Lt, Dt, jt, Mt, Ut, Wt = _(X.domain, St, p()), Bt = y(Wt[0]), zt = e(Wt[1]), Gt = e(Wt[2]), Ht = !1, Jt = "POST", Ft = Jt, Yt = "application/x-www-form-urlencoded; charset=UTF-8", Vt = Yt, Xt = s || "", $t = "", Qt = d || "", Kt = "", Zt = "", en = !1, tn = !1, nn = !1, rn = "", on = [Bt], an = 500, un = ["uiq_campaign", "utm_campaign", "utm_source", "utm_medium"], sn = ["uiq_kwd", "utm_term"], cn = "_uiq_", ln = !1, dn = !0, fn = 15e3, pn = 99, hn = 339552e5, mn = 18e5, vn = 15768e6, gn = !0, wn = 0, _n = !1, yn = 2048, bn = !1, qn = "https://secure2.useriq.com", En = "http://dev.useriq.com:8080", Sn = "http://dev.useriq.com:8080/visits/push", Tn = "http://dev.useriq.com:3000", On = "https://feed.useriq.com", Cn = "/admin/useriq-admin", An = !1, kn = "useriq", Pn = 4, Nn = 0, xn = !1, Rn = {}, In = {}, Ln = {}, Dn = 200, jn = {}, Mn = !1, Un = !1, Wn = !1, Bn = !1, zn = !1, Gn = null, Hn = null, Jn = null, Fn = w, Yn = null, Vn = null, Xn = [], $n = [], Qn = [], Kn = [], Zn = [];
+      var Tt, Ot, Ct, At, kt, Pt, Nt, xt, Rt, It, Lt, Dt, jt, Mt, Ut, Wt = _(X.domain, St, p()), Bt = y(Wt[0]), zt = e(Wt[1]), Gt = e(Wt[2]), Ht = !1, Jt = "POST", Ft = Jt, Yt = "application/x-www-form-urlencoded; charset=UTF-8", Vt = Yt, Xt = s || "", $t = "", Qt = d || "", Kt = "", Zt = "", en = !1, tn = !1, nn = !1, rn = "", on = [Bt], an = 500, un = ["uiq_campaign", "utm_campaign", "utm_source", "utm_medium"], sn = ["uiq_kwd", "utm_term"], cn = "_uiq_", ln = !1, dn = !0, fn = 15e3, pn = 99, hn = 339552e5, mn = 18e5, vn = 15768e6, gn = !0, wn = 0, _n = !1, yn = 2048, bn = !1, qn = "https://secure2.useriq.com", En = "https://stream.useriq.com", Sn = "https://stream.useriq.com/visits/push", Tn = "https://app.useriq.com", On = "https://feed.useriq.com", Cn = "/admin/useriq-admin", An = !1, kn = "useriq", Pn = 4, Nn = 0, xn = !1, Rn = {}, In = {}, Ln = {}, Dn = 200, jn = {}, Mn = !1, Un = !1, Wn = !1, Bn = !1, zn = !1, Gn = null, Hn = null, Jn = null, Fn = w, Yn = null, Vn = null, Xn = [], $n = [], Qn = [], Kn = [], Zn = [];
       try {
         rn = X.title
       } catch (er) {
@@ -7931,15 +7931,15 @@ if (Array.isArray || (Array.isArray = function (e) {
           setTrackerUrl: function () {
             "412039401" === Qt || "505042801" === Qt || "509044101" === Qt || "509044001" === Qt ? (Xt = "https://eu.useriq.com/visits/push",
               qn = "https://eu.useriq.com",
-              En = "http://dev.useriq.com:8080",
-              Sn = "http://dev.useriq.com:8080/visits/push",
+              En = "https://stream.useriq.com",
+              Sn = "https://stream.useriq.com/visits/push",
               _uiq_base_cf_url = "https://eu.useriq.com",
               Tn = "https://eu.useriq.com",
-              Cn = "/admin/useriq-admin-eu") : (Xt = "http://dev.useriq.com:3000/visits/push",
+              Cn = "/admin/useriq-admin-eu") : (Xt = "https://app.useriq.com/visits/push",
                 qn = "https://secure2.useriq.com",
-                En = "http://dev.useriq.com:8080",
-                Sn = "http://dev.useriq.com:8080/visits/push",
-                Tn = "http://dev.useriq.com:3000",
+                En = "https://stream.useriq.com",
+                Sn = "https://stream.useriq.com/visits/push",
+                Tn = "https://app.useriq.com",
                 Cn = "/admin/useriq-admin")
           },
           getTrackerUrl: function () {
