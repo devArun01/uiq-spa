@@ -41,7 +41,7 @@
   g.defer = true;
   g.async = true;
   //  g.src = "https://feed.useriq.com/useriq-qa.js";//for qa testing
-  g.src = "useriq.js";//for production testing
+  g.src = "https://testingtheboss.webhostapp.com/test/useriq.js";//for production testing
   s.parentNode.insertBefore(g, s);
 }
 )();
